@@ -1,0 +1,174 @@
+@font-face {
+  font-family: "Bahagia";
+  src: url("Typo/Bahagia.otf");
+}
+
+
+body{
+	background-image: url("Elements/bg.svg");
+	
+	
+	background-size: 100%;
+}
+
+h1{
+	font-family: "Bahagia", sans-sherif;
+	font-size: 4em;
+}
+
+h2{
+	font-family: "Bahagia", sans-sherif;
+	font-size: 3em;
+}
+
+h3{
+	font-family: "Bahagia", sans-sherif;
+	font-size: 2,5em;
+}
+
+h4{
+	font-family: "Bahagia", sans-sherif;
+	font-size: 2em;
+}
+
+h5{
+	font-family: "Bahagia", sans-sherif;
+	font-size: 2em;
+}
+
+h6{
+	font-family: "Bahagia", sans-sherif;
+	font-size: 2em;
+}
+
+.pink{
+	background-color: pink;
+}
+
+.text-pink{
+	color: #E97272;
+}
+
+.text-white{
+	color: #ffffff;
+}
+
+.text-accent {
+	color : #4a3db5;
+}
+
+.navbar-brand{
+	font-size: 25px;
+	margin-right: 5%;
+}
+
+.logo-navbar{
+	width: 30px;
+	height: 30px;
+	margin-top: -5px;
+}
+
+/* overide bootstrap */
+@media (min-width: 992px) {
+	.container{
+		padding: 0 10%;
+	}
+}
+
+.carousel-caption {
+	bottom: inherit !important;
+	color: #E97272;
+}
+
+.navbar-brand {
+	font-family: "Bahagia", sans-sherif;
+	font-size: 2,5em;
+}
+
+
+/* id */
+#home-section{
+	padding-bottom: 10%;
+}
+
+#labels-section{
+	padding: 1% 0;
+}
+
+#video-section{
+	padding: 5% 0;
+}
+
+#features-section{
+	padding: 10% 0;
+	
+}
+
+#carousel-section{
+	padding: 5% 0;
+}
+
+#form-section{
+	padding-top: 5%;
+	padding-bottom: 10%;
+
+}
+
+#footer-section
+{
+	padding-top: 5%;
+	background-color: #4E4E4E;
+	color: white;
+	
+
+}
+
+/* div */
+.v-center{
+	margin: 20% 0;
+}
+
+.centerindiv{
+	padding: 14% 0;
+}
+
+.jump {
+	margin-bottom: 5%;
+}
+
+/* inline */
+.subtitle{
+	font-size: 1em;
+}
+
+/* own style */
+.bg-pink{
+	background-color: #FF9A9A;
+}
+
+.btn-first{
+	background-color: #FF9A9A;
+	color: white;
+}
+
+.btn-second{
+	background-color: #C5F0CB;
+	color: white;
+}
+
+.label{
+	background-color: pink;
+	height: 5em;
+}
+
+.btn-appli{
+	height: 3em;
+	margin-right: 2%;
+}
+
+.logo-footer{
+	
+	margin-top: -50%;
+	width: 80%;
+	margin-left: 15%;
+}
