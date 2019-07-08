@@ -1,19 +1,17 @@
 @font-face {
-  font-family: "Bahagia";
-  src: url("Typo/Bahagia.otf");
+	font-family: "Bahagia";
+	src: url("Typo/Bahagia.otf");
 }
 
 
 body{
 	background-image: url("Elements/bg.svg");
 	background-position: center 0;
-	
-	
 }
 
 h1{
 	font-family: "Bahagia", sans-sherif;
-	font-size: 4em;
+	font-size: 5em;
 }
 
 h2{
@@ -23,7 +21,8 @@ h2{
 
 h3{
 	font-family: "Bahagia", sans-sherif;
-	font-size: 2,5em;
+	font-size: 2.2em;
+	text-align: center;
 }
 
 h4{
@@ -34,11 +33,21 @@ h4{
 h5{
 	font-family: "Bahagia", sans-sherif;
 	font-size: 2em;
+	text-align : center;
 }
 
 h6{
 	font-family: "Bahagia", sans-sherif;
 	font-size: 2em;
+	
+}
+
+#features-section p {
+	text-align:center;
+}
+
+#features-section {
+	margin-bottom : 20%;
 }
 
 .pink{
@@ -58,7 +67,7 @@ h6{
 }
 
 .navbar-brand{
-	font-size: 25px;
+	font-size: 5em;
 	margin-right: 5%;
 }
 
@@ -89,31 +98,27 @@ h6{
 	margin-right: 0px !important;
 }
 
-
 /* id */
 #home-section{
-	padding-bottom: 0%;
-}
-
-#labels-section{
-	padding: 0% 0;
+	padding-top: 5%;
+	padding-bottom: 10%;
 }
 
 #video-section{
-	padding: 28% 0 5% 0;
+	padding: 7% 0 10% 0;
 }
 
 #features-section{
-	padding: 10% 0;
-	
+	padding-top: 5%;
+	padding-bottom: 2%;
 }
 
 #carousel-section{
-	padding: 5% 0;
+	padding: 3% 0;
 }
 
 #form-section{
-	padding-top: 5%;
+	padding-top: 6%;
 	padding-bottom: 10%;
 
 }
@@ -123,7 +128,14 @@ h6{
 	padding-top: 5%;
 	background-color: #4E4E4E;
 	color: white;
-	
+}
+
+#bottom-line {
+	background-color: #3C3C3C !important;
+	font-size: 0,5em;
+	text-align: center;
+	display: block;
+	padding: 1% 0%;
 
 }
 
@@ -133,11 +145,15 @@ h6{
 }
 
 .centerindiv{
-	padding: 15% 0 5% 0;
+	padding: 10% 0 5% 0;
 }
 
 .jump {
 	margin-bottom: 5%;
+}
+
+.Tjump {
+	margin-top: 5%;
 }
 
 .mg-left-5{
@@ -170,13 +186,305 @@ h6{
 }
 
 .btn-appli{
-	height: 3em;
+	height: 4em;
 	margin-right: 2%;
 }
 
+.btn-appli:hover {
+	-ms-transform: scale(1.1); /* IE 9 */
+	-webkit-transform: scale(1.1); /* Safari 3-8 */
+	transform: scale(1.1);
+}
+
+.zoom:hover {
+	-ms-transform: scale(1.1); /* IE 9 */
+	-webkit-transform: scale(1.1); /* Safari 3-8 */
+	transform: scale(1.1);
+}
+
+.btn-first:hover {
+	-ms-transform: scale(1.1); /* IE 9 */
+	-webkit-transform: scale(1.1); /* Safari 3-8 */
+	transform: scale(1.1);
+}
+
+/* Footer */
+
 .logo-footer{
-	
 	margin-top: -50%;
 	width: 80%;
 	margin-left: 15%;
 }
+
+.text-bottom {
+	margin-top: 50%;
+}
+
+
+#footer-section a {
+	color: white;
+	margin-bottom: 20%;
+}
+
+#footer-section a:link {
+	color : white;
+}
+
+#footer-section a:hover {
+	color : #E97272;
+	text-decoration : none;
+}
+
+/* Navbar */
+
+.navbar button {
+	position: relative;
+	float : right;
+}
+
+.social-part .fa{
+	padding-right:20px;
+	font-size:1.8em;
+}
+
+.social-part a {
+	color:white;
+	text-decoration: none;
+}
+
+.navbar-custom {
+	background-color: #FF9A9A;
+}
+
+.navbar-custom a {
+	color : white;
+}
+
+.custom-toggler.navbar-toggler {
+	border-color: rgb(255,255,255);
+}
+.custom-toggler .navbar-toggler-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar a {
+	color : white;
+	font-size : 1.2em;
+}
+
+.frst a {
+	color:white;
+}
+
+.scnd a {
+	color : #FCE5E5;
+}
+
+.scnd a:hover {
+	color : white;
+}
+
+.navbar a:active {
+	color : white;
+}
+
+/* Animate CSS */
+
+@-webkit-keyframes fadeInRight {
+	from {
+		opacity: 0;
+		-webkit-transform: translate3d(50%, 0, 0);
+		transform: translate3d(50%, 0, 0);
+	}
+
+	to {
+		opacity: 1;
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+@keyframes fadeInRight {
+	from {
+		opacity: 0;
+		-webkit-transform: translate3d(50%, 0, 0);
+		transform: translate3d(50%, 0, 0);
+	}
+
+	to {
+		opacity: 1;
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+.fadeInRight {
+	-webkit-animation-name: fadeInRight;
+	animation-name: fadeInRight;
+}
+
+/* ScrollBar Custom */
+
+/* width */
+::-webkit-scrollbar {
+	width: 10px;
+	margin-right: 2%;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 5px grey; 
+	border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #E97272; 
+	border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #E97272; 
+}
+
+/* Responsive Mobile */
+
+@media screen and (max-width: 600px) {
+	.btn-appli {
+		width : 40%;
+		height : 40%;
+		margin-left: 7%;
+	}
+
+	.robot-mobile{
+		display: block;
+		margin-bottom: 12%;
+	}
+
+	.centerindiv {
+		padding: 20% 0 10% 0;
+	}
+
+	#texta {
+		padding-top: -15%;
+	}
+
+	.labels img {
+		width:130%;
+		margin-bottom : 5%;
+	}
+
+	.labels {
+		margin-bottom: 20%;
+		margin-left: 13%;
+		margin-right: 13%;
+		margin-top : 10%;
+	}
+
+	.lab {
+		width : 30%;
+	}
+
+	#label-agri img {
+		width : 91%;
+	}
+
+	#label-agri2 img {
+		margin-left: -10%;
+	}
+
+	#appli img {
+		width : 50%;
+		display: none;
+		margin-left: 27%;
+		margin-right: 27%;
+		margin-bottom : 10%;
+	}
+
+	h1 {
+		text-align : center;
+		font-size : 3.5em;
+		margin-bottom: 10%;
+	}
+
+	#features-section img {
+		display: block;
+		width : 50%;
+		height : 50%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 2%;
+	}
+
+	#features-section {
+		margin-top : 20%;
+		margin-bottom: -25%;
+	}
+
+	#video-section {
+		margin-bottom: 10%;
+	}
+
+	#features3 {
+		margin-top : 6%;
+	}
+
+	.logo-footer {
+		width:50%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 1%;
+		margin-bottom: 5%;
+	}
+
+	#form-section {
+		margin-top:10%;
+		margin-bottom: 10%;
+	}
+
+	body{
+		background-image: url("Elements/bg.svg");
+		background-position: right 0;
+		background-size: 200vh;
+		
+	}
+
+	.btn-first{
+		background-color: #E97272;
+		color : #FFFFFF;
+	}
+
+	#carousel-section {
+		padding-top : 20%;
+	}
+
+	#carousel-section img {
+		padding-top: 90%;
+	}
+
+	.column {
+		width : 50%;
+	}
+
+	
+
+	h4 h6 {
+		
+		margin-top: -100%;
+	}
+
+	#footer-section {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		
+	}
+
+	#bottom-line {
+		margin-top: 8%;
+	}
+
+}	
